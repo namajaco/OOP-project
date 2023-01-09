@@ -1,0 +1,79 @@
+*, ::before, *::after{
+  box-sizing: border-box;
+  font-family: 'VT323', monospace;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('ghosts.jpg');
+  background-repeat: round;
+  color: #3B3341;
+}
+
+footer{
+  text-align: center;
+  padding: 3px;
+  font-size: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(1, 1, 1, 0.5);
+  text-align: center;
+}
+
+a, :visited, :active{
+  color: #3B3341;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EB7D40;
+}
+
+.container{
+  width: 800px;
+  max-width: 80%;
+  background-color: #F2EBDB;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 5px #3B3341;
+  text-align: center;
+}
+
+#text{
+  font-size: 40px;
+}
+
+.btn-grid{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.btn{
+  background-color: #3B3341;
+  border-radius: 20px;
+  padding: 5px 10px;
+  color: #EB7D40;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #3B3341;
+}
+
+.btn:hover{
+  border-color: #F2B036;
+}
